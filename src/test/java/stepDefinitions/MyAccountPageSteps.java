@@ -15,6 +15,18 @@ public class MyAccountPageSteps {
 	
 	Logger logger = HomePageSteps.logger;
 	
+	// Steps for page details
+	@Then("user can see the {string} section")
+	public void user_can_see_the_section(String expectedMsg) {
+		try {
+			Assert.assertTrue("Incorrect section name.", map.verifyAccountInformationMessage(expectedMsg));
+		}
+		catch(Exception e) {
+			logger.info(e.getMessage());
+			Assert.fail("Not able to verify Account Information section name.");
+		}
+	}
+	
 	// Steps for Create Account result
 	@Then("user will see {string} message on next page")
 	public void user_will_see_message_on_next_page(String expectedMsg) {
@@ -32,6 +44,17 @@ public class MyAccountPageSteps {
 	public void user_will_see_text_along_with_first_last_name_at_top_right_corner_of_the_page(String text) {
 		try {
 			Assert.assertTrue("Incorrect welcome message.", map.verifyWelcomeMessageAfterSignIn(text));
+		}
+		catch(Exception e) {
+			logger.info(e.getMessage());
+			Assert.fail("Not able to interact with Welcome message.");
+		}
+	}
+	
+	@Then("user will see {string} text on top right corner of the page")
+	public void user_will_see_text_on_top_right_corner_of_the_page(String text) {
+		try {
+			Assert.assertTrue("Incorrect welcome message.", map.verifyPartialWelcomeMessageAfterSignIn(text));
 		}
 		catch(Exception e) {
 			logger.info(e.getMessage());

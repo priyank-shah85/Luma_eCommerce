@@ -19,6 +19,10 @@ public class MyAccountPage extends BasePage {
 	
 	ScenarioContext sc = CreateAccountPage.sc;
 	
+	// Elements for page details
+	@FindBy(xpath = "//div[@class='block block-dashboard-info']//div[@class='block-title']//strong")
+	WebElement msgAccountInformation;
+	
 	// Elements for Create Account result
 	@FindBy(xpath = "//div[@data-bind='html: $parent.prepareMessageForHtml(message.text)']")
 	WebElement msgNewAccountCreated;
@@ -32,6 +36,18 @@ public class MyAccountPage extends BasePage {
 	
 	@FindBy(xpath = "//div[@aria-hidden='false']//ul//li//a[contains(text(),'Sign Out')]")
 	WebElement lnkSignOut;
+	
+	// Action methods for page details
+	public boolean verifyAccountInformationMessage(String expcetedMsg) {
+		new WebDriverWait(driver, Duration.ofSeconds(10)).until(ExpectedConditions.elementToBeClickable(msgAccountInformation));
+		
+		if(msgAccountInformation.getText().contentEquals(expcetedMsg)) {
+			return true;
+		}
+		else {
+			return false;
+		}
+	}
 	
 	// Action methods for Create Account result
 	public boolean verifyNewAccountCreation(String expectedMsg) {
@@ -58,6 +74,18 @@ public class MyAccountPage extends BasePage {
 		
 		// Comparing both messages
 		if(actualMsg.contentEquals(expectedMsg)) {
+			return true;
+		}
+		else {
+			return false;
+		}
+	}
+	
+	public boolean verifyPartialWelcomeMessageAfterSignIn(String text) {
+		new WebDriverWait(driver, Duration.ofSeconds(10)).until(ExpectedConditions.elementToBeClickable(welcomeMsgAfterSignIn));
+		
+		// Comparing partial text within the actual Welcome message
+		if(welcomeMsgAfterSignIn.getText().contains(text)) {
 			return true;
 		}
 		else {
