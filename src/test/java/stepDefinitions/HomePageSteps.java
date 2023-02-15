@@ -25,7 +25,7 @@ import pageObjects.HomePage;
 
 public class HomePageSteps {
 	
-	static WebDriver driver;
+	public static WebDriver driver;
 	HomePage hp;
 
 	static Logger logger; // for logging

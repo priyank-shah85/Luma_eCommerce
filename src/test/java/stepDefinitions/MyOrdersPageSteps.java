@@ -1,0 +1,29 @@
+package stepDefinitions;
+
+import org.apache.logging.log4j.Logger;
+import org.junit.Assert;
+import org.openqa.selenium.WebDriver;
+
+import io.cucumber.java.en.Then;
+import pageObjects.MyOrdersPage;
+
+public class MyOrdersPageSteps {
+	
+	WebDriver driver;
+	
+	MyOrdersPage mop = new MyOrdersPage(HomePageSteps.driver);
+	Logger logger = HomePageSteps.logger;
+	
+	// Steps for page details
+	@Then("user can see {string} message")
+	public void user_can_see_message(String expectedMsg) {
+		try {
+			Assert.assertTrue("No order placed message is incorrect.", mop.verifyNoOrderPlacedMessage(expectedMsg));
+		}
+		catch(Exception e) {
+			logger.info(e.getMessage());
+			Assert.fail("Not able to verify no order placed message.");
+		}
+	}
+
+}

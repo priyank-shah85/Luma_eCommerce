@@ -24,5 +24,16 @@ public class CommonPageSteps {
 			Assert.fail("Not able to interact with page title.");
 		}
 	}
+	
+	@And("user clicks on browser back button")
+	public void user_clicks_on_browser_back_button() {
+		try {
+			cp.clickBrowserBackButton();
+		}
+		catch(Exception e) {
+			logger.info(e.getMessage());
+			Assert.fail("Not able to redirect to previous page.");
+		}
+	}
 
 }

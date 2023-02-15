@@ -1,529 +1,184 @@
-21:52:09.492 [main] INFO  stepDefinitions.HomePageSteps - no such element: Unable to locate element: {"method":"css selector","selector":".not-logged-in.cf-tweet-this.cf-tt-target.cf-tt-element-attached-center.cf-tt-target-attached-center.cf-tt-out-of-bounds.cf-tt-out-of-bounds-top.cf-tt-element-attached-top.cf-tt-target-attached-bottom"}
+14:50:29.986 [main] INFO  stepDefinitions.HomePageSteps - org.openqa.selenium.JavascriptException: javascript error: $ is not a function
+  (Session info: chrome=109.0.5414.120)
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d54b5079435cd47b67d2e34bbed89990, executeScript {script=function Coords(el) {
+    this.left = parseInt(el.offset().left);
+    this.top = parseInt(el.offset().top);
+    this.right = parseInt(this.left + el.outerWidth());
+    this.bottom = parseInt(this.top + el.outerHeight());
+}
+
+Coords.prototype.toString = function () {
+    var x = Math.max(this.left, 0);
+    var y = Math.max(this.top, 0);
+    return JSON.stringify({
+        x:x,
+        y:y,
+        width:this.right - x,
+        height:this.bottom - y
+    });
+};
+
+return [(new Coords($(arguments[0]))).toString()];
+, args=[{ELEMENT=16550ce2-f99d-4046-a545-5999ce8d81bf, element-6066-11e4-a52e-4f735466cecf=16550ce2-f99d-4046-a545-5999ce8d81bf}]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\PRIYAN~1.SHA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:58516}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58516/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d54b5079435cd47b67d2e34bbed89990
+14:57:13.474 [main] INFO  stepDefinitions.HomePageSteps - org.openqa.selenium.JavascriptException: javascript error: $ is not a function
+  (Session info: chrome=109.0.5414.120)
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b883c73b34a4b829f948cddd4dee8b8d, executeScript {script=function Coords(el) {
+    this.left = parseInt(el.offset().left);
+    this.top = parseInt(el.offset().top);
+    this.right = parseInt(this.left + el.outerWidth());
+    this.bottom = parseInt(this.top + el.outerHeight());
+}
+
+Coords.prototype.toString = function () {
+    var x = Math.max(this.left, 0);
+    var y = Math.max(this.top, 0);
+    return JSON.stringify({
+        x:x,
+        y:y,
+        width:this.right - x,
+        height:this.bottom - y
+    });
+};
+
+return [(new Coords($(arguments[0]))).toString()];
+, args=[{ELEMENT=ebc1284e-0f49-49c6-905b-6dd22b7f5601, element-6066-11e4-a52e-4f735466cecf=ebc1284e-0f49-49c6-905b-6dd22b7f5601}]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\PRIYAN~1.SHA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:59057}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59057/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b883c73b34a4b829f948cddd4dee8b8d
+15:01:06.738 [main] INFO  stepDefinitions.HomePageSteps - org.openqa.selenium.JavascriptException: javascript error: $ is not a function
+  (Session info: chrome=109.0.5414.120)
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6e3f519da60b049038ca7b13f744d6bd, executeScript {script=function Coords(el) {
+    this.left = parseInt(el.offset().left);
+    this.top = parseInt(el.offset().top);
+    this.right = parseInt(this.left + el.outerWidth());
+    this.bottom = parseInt(this.top + el.outerHeight());
+}
+
+Coords.prototype.toString = function () {
+    var x = Math.max(this.left, 0);
+    var y = Math.max(this.top, 0);
+    return JSON.stringify({
+        x:x,
+        y:y,
+        width:this.right - x,
+        height:this.bottom - y
+    });
+};
+
+return [(new Coords($(arguments[0]))).toString()];
+, args=[{ELEMENT=ddd2d910-fb5b-406a-b34b-4e0be6b51e33, element-6066-11e4-a52e-4f735466cecf=ddd2d910-fb5b-406a-b34b-4e0be6b51e33}]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\PRIYAN~1.SHA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:59352}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59352/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6e3f519da60b049038ca7b13f744d6bd
+15:16:13.344 [main] INFO  stepDefinitions.HomePageSteps - org.openqa.selenium.JavascriptException: javascript error: $ is not a function
+  (Session info: chrome=109.0.5414.120)
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4297ff732052046eda7bc2bdc60b20f9, executeScript {script=function Coords(el) {
+    this.left = parseInt(el.offset().left);
+    this.top = parseInt(el.offset().top);
+    this.right = parseInt(this.left + el.outerWidth());
+    this.bottom = parseInt(this.top + el.outerHeight());
+}
+
+Coords.prototype.toString = function () {
+    var x = Math.max(this.left, 0);
+    var y = Math.max(this.top, 0);
+    return JSON.stringify({
+        x:x,
+        y:y,
+        width:this.right - x,
+        height:this.bottom - y
+    });
+};
+
+return [(new Coords($(arguments[0]))).toString()];
+, args=[{ELEMENT=54d57d8b-75d7-4cb1-bb2a-1524444bb0c0, element-6066-11e4-a52e-4f735466cecf=54d57d8b-75d7-4cb1-bb2a-1524444bb0c0}]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\PRIYAN~1.SHA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:60875}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60875/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4297ff732052046eda7bc2bdc60b20f9
+15:31:26.731 [main] INFO  stepDefinitions.HomePageSteps - org.openqa.selenium.JavascriptException: javascript error: $ is not a function
+  (Session info: chrome=109.0.5414.120)
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f38e25dd02ad433d7486cefc1b9579fc, executeScript {script=function Coords(el) {
+    this.left = parseInt(el.offset().left);
+    this.top = parseInt(el.offset().top);
+    this.right = parseInt(this.left + el.outerWidth());
+    this.bottom = parseInt(this.top + el.outerHeight());
+}
+
+Coords.prototype.toString = function () {
+    var x = Math.max(this.left, 0);
+    var y = Math.max(this.top, 0);
+    return JSON.stringify({
+        x:x,
+        y:y,
+        width:this.right - x,
+        height:this.bottom - y
+    });
+};
+
+return [(new Coords($(arguments[0]))).toString()];
+, args=[{ELEMENT=085184e2-426b-4e9e-b210-cf5d079b3a44, element-6066-11e4-a52e-4f735466cecf=085184e2-426b-4e9e-b210-cf5d079b3a44}]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\PRIYAN~1.SHA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:62419}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62419/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f38e25dd02ad433d7486cefc1b9579fc
+22:18:29.439 [main] INFO  stepDefinitions.HomePageSteps - org.openqa.selenium.JavascriptException: javascript error: $ is not a function
+  (Session info: chrome=109.0.5414.120)
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b16a508457778dcab1f51f7e16708188, executeScript {script=function Coords(el) {
+    this.left = parseInt(el.offset().left);
+    this.top = parseInt(el.offset().top);
+    this.right = parseInt(this.left + el.outerWidth());
+    this.bottom = parseInt(this.top + el.outerHeight());
+}
+
+Coords.prototype.toString = function () {
+    var x = Math.max(this.left, 0);
+    var y = Math.max(this.top, 0);
+    return JSON.stringify({
+        x:x,
+        y:y,
+        width:this.right - x,
+        height:this.bottom - y
+    });
+};
+
+return [(new Coords($(arguments[0]))).toString()];
+, args=[{ELEMENT=552bc3d2-9eb7-4607-a8d2-8ea06de9472e, element-6066-11e4-a52e-4f735466cecf=552bc3d2-9eb7-4607-a8d2-8ea06de9472e}]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\PRIYAN~1.SHA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:63347}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63347/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b16a508457778dcab1f51f7e16708188
+22:46:58.656 [main] INFO  stepDefinitions.HomePageSteps - Cannot invoke "String.isEmpty()" because "email" is null
+22:51:37.943 [main] INFO  stepDefinitions.HomePageSteps - Cannot invoke "String.contentEquals(StringBuffer)" because "email" is null
+23:20:50.649 [main] INFO  stepDefinitions.HomePageSteps - no such element: Unable to locate element: {"method":"css selector","selector":".box.box-newsletter"}
   (Session info: chrome=109.0.5414.120)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.7.1', revision: 'c6795baf1a3'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [77de821d6b23af43c623a7ed44480b3c, findElement {using=css selector, value=.not-logged-in.cf-tweet-this.cf-tt-target.cf-tt-element-attached-center.cf-tt-target-attached-center.cf-tt-out-of-bounds.cf-tt-out-of-bounds-top.cf-tt-element-attached-top.cf-tt-target-attached-bottom}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\PRIYAN~1.SHA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:50749}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50749/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 77de821d6b23af43c623a7ed44480b3c
-21:52:24.769 [main] INFO  stepDefinitions.HomePageSteps - no such element: Unable to locate element: {"method":"css selector","selector":".not-logged-in.cf-tweet-this.cf-tt-target.cf-tt-element-attached-center.cf-tt-target-attached-center.cf-tt-out-of-bounds.cf-tt-out-of-bounds-top.cf-tt-element-attached-top.cf-tt-target-attached-bottom"}
+Command: [363e29cc681e0a54fa47a89012e80105, findElement {using=css selector, value=.box.box-newsletter}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\PRIYAN~1.SHA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:50394}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50394/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 363e29cc681e0a54fa47a89012e80105
+22:19:21.509 [main] INFO  stepDefinitions.HomePageSteps - Cannot invoke "Object.toString()" because the return value of "cucumber.ScenarioContext.getContext(enums.Context)" is null
+22:36:51.505 [main] INFO  stepDefinitions.HomePageSteps - Cannot invoke "Object.toString()" because the return value of "cucumber.ScenarioContext.getContext(enums.Context)" is null
+23:17:41.561 [main] INFO  stepDefinitions.HomePageSteps - no such element: Unable to locate element: {"method":"link text","selector":"My Orders"}
   (Session info: chrome=109.0.5414.120)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.7.1', revision: 'c6795baf1a3'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [41a4fae40b1e4a6d7405738f8c3d0008, findElement {using=css selector, value=.not-logged-in.cf-tweet-this.cf-tt-target.cf-tt-element-attached-center.cf-tt-target-attached-center.cf-tt-out-of-bounds.cf-tt-out-of-bounds-top.cf-tt-element-attached-top.cf-tt-target-attached-bottom}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\PRIYAN~1.SHA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:50790}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50790/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 41a4fae40b1e4a6d7405738f8c3d0008
-22:23:39.954 [main] INFO  stepDefinitions.HomePageSteps - image == null!
-22:25:23.353 [main] INFO  stepDefinitions.HomePageSteps - image == null!
-22:28:28.488 [main] INFO  stepDefinitions.HomePageSteps - image == null!
-22:31:30.073 [main] INFO  stepDefinitions.HomePageSteps - image == null!
-22:34:44.602 [main] INFO  stepDefinitions.HomePageSteps - image == null!
-22:35:49.330 [main] INFO  stepDefinitions.HomePageSteps - image == null!
-23:46:21.428 [main] INFO  stepDefinitions.HomePageSteps - image
-23:48:58.529 [main] INFO  stepDefinitions.HomePageSteps - org.openqa.selenium.JavascriptException: javascript error: $ is not a function
-  (Session info: chrome=109.0.5414.120)
-Build info: version: '4.7.1', revision: 'c6795baf1a3'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [0061a72b5eaf61873fc117caf03c305b, executeScript {script=function Coords(el) {
-    this.left = parseInt(el.offset().left);
-    this.top = parseInt(el.offset().top);
-    this.right = parseInt(this.left + el.outerWidth());
-    this.bottom = parseInt(this.top + el.outerHeight());
-}
-
-Coords.prototype.toString = function () {
-    var x = Math.max(this.left, 0);
-    var y = Math.max(this.top, 0);
-    return JSON.stringify({
-        x:x,
-        y:y,
-        width:this.right - x,
-        height:this.bottom - y
-    });
-};
-
-return [(new Coords($(arguments[0]))).toString()];
-, args=[{ELEMENT=fccb9c6e-dbd4-48a3-a4e6-241b0d43df12, element-6066-11e4-a52e-4f735466cecf=fccb9c6e-dbd4-48a3-a4e6-241b0d43df12}]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\PRIYAN~1.SHA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:58041}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58041/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 0061a72b5eaf61873fc117caf03c305b
-00:12:10.197 [main] INFO  stepDefinitions.HomePageSteps - Value cannot be null.
-Parameter name: fileLocation
-00:28:20.089 [main] INFO  stepDefinitions.HomePageSteps - Value cannot be null.
-Parameter name: fileLocation
-00:33:22.642 [main] INFO  stepDefinitions.HomePageSteps - Value cannot be null.
-Parameter name: fileLocation
-00:35:50.020 [main] INFO  stepDefinitions.HomePageSteps - Value cannot be null.
-Parameter name: fileLocation
-00:36:44.620 [main] INFO  stepDefinitions.HomePageSteps - Value cannot be null.
-Parameter name: fileLocation
-00:39:08.228 [main] INFO  stepDefinitions.HomePageSteps - Value cannot be null.
-Parameter name: fileLocation
-00:46:12.752 [main] INFO  stepDefinitions.HomePageSteps - Value cannot be null.
-Parameter name: fileLocation
-00:53:16.409 [main] INFO  stepDefinitions.HomePageSteps - Value cannot be null.
-Parameter name: fileLocation
-00:55:07.481 [main] INFO  stepDefinitions.HomePageSteps - Can't find file: https://magento.softwaretestingboard.com/pub/static/version1666447838/frontend/Magento/luma/en_US/images/logo.svg.
-01:06:22.390 [main] INFO  stepDefinitions.HomePageSteps - org.openqa.selenium.JavascriptException: javascript error: $ is not a function
-  (Session info: chrome=109.0.5414.120)
-Build info: version: '4.7.1', revision: 'c6795baf1a3'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [73733796f6ce6676bb1e369a04bd5349, executeScript {script=function Coords(el) {
-    this.left = parseInt(el.offset().left);
-    this.top = parseInt(el.offset().top);
-    this.right = parseInt(this.left + el.outerWidth());
-    this.bottom = parseInt(this.top + el.outerHeight());
-}
-
-Coords.prototype.toString = function () {
-    var x = Math.max(this.left, 0);
-    var y = Math.max(this.top, 0);
-    return JSON.stringify({
-        x:x,
-        y:y,
-        width:this.right - x,
-        height:this.bottom - y
-    });
-};
-
-return [(new Coords($(arguments[0]))).toString()];
-, args=[{ELEMENT=317295e4-3b71-4298-9b87-64bd2310a711, element-6066-11e4-a52e-4f735466cecf=317295e4-3b71-4298-9b87-64bd2310a711}]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\PRIYAN~1.SHA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:60812}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60812/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 73733796f6ce6676bb1e369a04bd5349
-12:48:31.937 [main] INFO  stepDefinitions.HomePageSteps - image == null!
-12:50:50.021 [main] INFO  stepDefinitions.HomePageSteps - org.openqa.selenium.JavascriptException: javascript error: $ is not a function
-  (Session info: chrome=109.0.5414.120)
-Build info: version: '4.7.1', revision: 'c6795baf1a3'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [b07bb5f7aa99f78818e1b640483db996, executeScript {script=function Coords(el) {
-    this.left = parseInt(el.offset().left);
-    this.top = parseInt(el.offset().top);
-    this.right = parseInt(this.left + el.outerWidth());
-    this.bottom = parseInt(this.top + el.outerHeight());
-}
-
-Coords.prototype.toString = function () {
-    var x = Math.max(this.left, 0);
-    var y = Math.max(this.top, 0);
-    return JSON.stringify({
-        x:x,
-        y:y,
-        width:this.right - x,
-        height:this.bottom - y
-    });
-};
-
-return [(new Coords($(arguments[0]))).toString()];
-, args=[{ELEMENT=ddb2463a-193f-4431-a430-d9368f6751ae, element-6066-11e4-a52e-4f735466cecf=ddb2463a-193f-4431-a430-d9368f6751ae}]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\PRIYAN~1.SHA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:56392}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56392/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: b07bb5f7aa99f78818e1b640483db996
-13:26:45.862 [main] INFO  stepDefinitions.HomePageSteps - org.openqa.selenium.JavascriptException: javascript error: $ is not a function
-  (Session info: chrome=109.0.5414.120)
-Build info: version: '4.7.1', revision: 'c6795baf1a3'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [11d43d85853681c3016b1e350511d1b0, executeScript {script=function Coords(el) {
-    this.left = parseInt(el.offset().left);
-    this.top = parseInt(el.offset().top);
-    this.right = parseInt(this.left + el.outerWidth());
-    this.bottom = parseInt(this.top + el.outerHeight());
-}
-
-Coords.prototype.toString = function () {
-    var x = Math.max(this.left, 0);
-    var y = Math.max(this.top, 0);
-    return JSON.stringify({
-        x:x,
-        y:y,
-        width:this.right - x,
-        height:this.bottom - y
-    });
-};
-
-return [(new Coords($(arguments[0]))).toString()];
-, args=[{ELEMENT=280c262c-bdd9-4ce8-99f7-18cf8f820095, element-6066-11e4-a52e-4f735466cecf=280c262c-bdd9-4ce8-99f7-18cf8f820095}]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\PRIYAN~1.SHA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:60126}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60126/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 11d43d85853681c3016b1e350511d1b0
-13:29:23.532 [main] INFO  stepDefinitions.HomePageSteps - org.openqa.selenium.JavascriptException: javascript error: $ is not a function
-  (Session info: chrome=109.0.5414.120)
-Build info: version: '4.7.1', revision: 'c6795baf1a3'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [27947427c3c4d31fee17071288fa1550, executeScript {script=function Coords(el) {
-    this.left = parseInt(el.offset().left);
-    this.top = parseInt(el.offset().top);
-    this.right = parseInt(this.left + el.outerWidth());
-    this.bottom = parseInt(this.top + el.outerHeight());
-}
-
-Coords.prototype.toString = function () {
-    var x = Math.max(this.left, 0);
-    var y = Math.max(this.top, 0);
-    return JSON.stringify({
-        x:x,
-        y:y,
-        width:this.right - x,
-        height:this.bottom - y
-    });
-};
-
-return [(new Coords($(arguments[0]))).toString()];
-, args=[{ELEMENT=1404f0a6-5375-4082-96a7-2c1cb2686b3f, element-6066-11e4-a52e-4f735466cecf=1404f0a6-5375-4082-96a7-2c1cb2686b3f}]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\PRIYAN~1.SHA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:60376}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60376/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 27947427c3c4d31fee17071288fa1550
-13:33:05.845 [main] INFO  stepDefinitions.HomePageSteps - org.openqa.selenium.JavascriptException: javascript error: $ is not a function
-  (Session info: chrome=109.0.5414.120)
-Build info: version: '4.7.1', revision: 'c6795baf1a3'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d2b8b97cf890bd2e359a59c4766967dc, executeScript {script=function Coords(el) {
-    this.left = parseInt(el.offset().left);
-    this.top = parseInt(el.offset().top);
-    this.right = parseInt(this.left + el.outerWidth());
-    this.bottom = parseInt(this.top + el.outerHeight());
-}
-
-Coords.prototype.toString = function () {
-    var x = Math.max(this.left, 0);
-    var y = Math.max(this.top, 0);
-    return JSON.stringify({
-        x:x,
-        y:y,
-        width:this.right - x,
-        height:this.bottom - y
-    });
-};
-
-return [(new Coords($(arguments[0]))).toString()];
-, args=[{ELEMENT=fa520611-1a72-43fe-8af0-34da0c4addc3, element-6066-11e4-a52e-4f735466cecf=fa520611-1a72-43fe-8af0-34da0c4addc3}]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\PRIYAN~1.SHA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:60786}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60786/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: d2b8b97cf890bd2e359a59c4766967dc
-13:36:54.719 [main] INFO  stepDefinitions.HomePageSteps - org.openqa.selenium.JavascriptException: javascript error: $ is not a function
-  (Session info: chrome=109.0.5414.120)
-Build info: version: '4.7.1', revision: 'c6795baf1a3'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [5a45efe751c9f0e5b41c855d1c43d166, executeScript {script=function Coords(el) {
-    this.left = parseInt(el.offset().left);
-    this.top = parseInt(el.offset().top);
-    this.right = parseInt(this.left + el.outerWidth());
-    this.bottom = parseInt(this.top + el.outerHeight());
-}
-
-Coords.prototype.toString = function () {
-    var x = Math.max(this.left, 0);
-    var y = Math.max(this.top, 0);
-    return JSON.stringify({
-        x:x,
-        y:y,
-        width:this.right - x,
-        height:this.bottom - y
-    });
-};
-
-return [(new Coords($(arguments[0]))).toString()];
-, args=[{ELEMENT=470f4795-90ed-4f5d-9209-66d622d8064d, element-6066-11e4-a52e-4f735466cecf=470f4795-90ed-4f5d-9209-66d622d8064d}]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\PRIYAN~1.SHA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:61178}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61178/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 5a45efe751c9f0e5b41c855d1c43d166
-14:30:12.164 [main] INFO  stepDefinitions.HomePageSteps - org.openqa.selenium.JavascriptException: javascript error: $ is not a function
-  (Session info: chrome=109.0.5414.120)
-Build info: version: '4.7.1', revision: 'c6795baf1a3'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [809f3a3973cb63aecfdcb1f22975c6d1, executeScript {script=function Coords(el) {
-    this.left = parseInt(el.offset().left);
-    this.top = parseInt(el.offset().top);
-    this.right = parseInt(this.left + el.outerWidth());
-    this.bottom = parseInt(this.top + el.outerHeight());
-}
-
-Coords.prototype.toString = function () {
-    var x = Math.max(this.left, 0);
-    var y = Math.max(this.top, 0);
-    return JSON.stringify({
-        x:x,
-        y:y,
-        width:this.right - x,
-        height:this.bottom - y
-    });
-};
-
-return [(new Coords($(arguments[0]))).toString()];
-, args=[{ELEMENT=bf851816-d258-4c15-bf6d-9b373ff34ace, element-6066-11e4-a52e-4f735466cecf=bf851816-d258-4c15-bf6d-9b373ff34ace}]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\PRIYAN~1.SHA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:64914}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64914/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 809f3a3973cb63aecfdcb1f22975c6d1
-14:35:30.234 [main] INFO  stepDefinitions.HomePageSteps - org.openqa.selenium.JavascriptException: javascript error: $ is not a function
-  (Session info: chrome=109.0.5414.120)
-Build info: version: '4.7.1', revision: 'c6795baf1a3'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [ba56ac75e6aed2c2fcba6077ba7aface, executeScript {script=function Coords(el) {
-    this.left = parseInt(el.offset().left);
-    this.top = parseInt(el.offset().top);
-    this.right = parseInt(this.left + el.outerWidth());
-    this.bottom = parseInt(this.top + el.outerHeight());
-}
-
-Coords.prototype.toString = function () {
-    var x = Math.max(this.left, 0);
-    var y = Math.max(this.top, 0);
-    return JSON.stringify({
-        x:x,
-        y:y,
-        width:this.right - x,
-        height:this.bottom - y
-    });
-};
-
-return [(new Coords($(arguments[0]))).toString()];
-, args=[{ELEMENT=4d1b589e-31e3-46d7-b1ee-2a5094785476, element-6066-11e4-a52e-4f735466cecf=4d1b589e-31e3-46d7-b1ee-2a5094785476}]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\PRIYAN~1.SHA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:49234}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49234/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: ba56ac75e6aed2c2fcba6077ba7aface
-14:39:17.998 [main] INFO  stepDefinitions.HomePageSteps - before trypageObjects.HomePage@238291d4
-14:39:18.071 [main] INFO  stepDefinitions.HomePageSteps - org.openqa.selenium.JavascriptException: javascript error: $ is not a function
-  (Session info: chrome=109.0.5414.120)
-Build info: version: '4.7.1', revision: 'c6795baf1a3'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [a9917cb564a7c32db4d06eb663e6102d, executeScript {script=function Coords(el) {
-    this.left = parseInt(el.offset().left);
-    this.top = parseInt(el.offset().top);
-    this.right = parseInt(this.left + el.outerWidth());
-    this.bottom = parseInt(this.top + el.outerHeight());
-}
-
-Coords.prototype.toString = function () {
-    var x = Math.max(this.left, 0);
-    var y = Math.max(this.top, 0);
-    return JSON.stringify({
-        x:x,
-        y:y,
-        width:this.right - x,
-        height:this.bottom - y
-    });
-};
-
-return [(new Coords($(arguments[0]))).toString()];
-, args=[{ELEMENT=cdda964c-6c4a-4e5a-a2b7-8ebfff16a365, element-6066-11e4-a52e-4f735466cecf=cdda964c-6c4a-4e5a-a2b7-8ebfff16a365}]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\PRIYAN~1.SHA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:49596}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49596/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: a9917cb564a7c32db4d06eb663e6102d
-14:41:33.439 [main] INFO  stepDefinitions.HomePageSteps - inside try
-14:41:33.532 [main] INFO  stepDefinitions.HomePageSteps - org.openqa.selenium.JavascriptException: javascript error: $ is not a function
-  (Session info: chrome=109.0.5414.120)
-Build info: version: '4.7.1', revision: 'c6795baf1a3'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [03c9f3ade6aa355a0b6dc3e9a5a4a483, executeScript {script=function Coords(el) {
-    this.left = parseInt(el.offset().left);
-    this.top = parseInt(el.offset().top);
-    this.right = parseInt(this.left + el.outerWidth());
-    this.bottom = parseInt(this.top + el.outerHeight());
-}
-
-Coords.prototype.toString = function () {
-    var x = Math.max(this.left, 0);
-    var y = Math.max(this.top, 0);
-    return JSON.stringify({
-        x:x,
-        y:y,
-        width:this.right - x,
-        height:this.bottom - y
-    });
-};
-
-return [(new Coords($(arguments[0]))).toString()];
-, args=[{ELEMENT=0ce1d3be-2c1d-407c-ac54-14223b970ae0, element-6066-11e4-a52e-4f735466cecf=0ce1d3be-2c1d-407c-ac54-14223b970ae0}]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\PRIYAN~1.SHA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:50391}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50391/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 03c9f3ade6aa355a0b6dc3e9a5a4a483
-14:43:33.145 [main] INFO  stepDefinitions.HomePageSteps - inside try
-14:43:42.701 [main] INFO  stepDefinitions.HomePageSteps - org.openqa.selenium.JavascriptException: javascript error: $ is not a function
-  (Session info: chrome=109.0.5414.120)
-Build info: version: '4.7.1', revision: 'c6795baf1a3'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [51c3b280fce0090ca0a90f3ad318a0ce, executeScript {script=function Coords(el) {
-    this.left = parseInt(el.offset().left);
-    this.top = parseInt(el.offset().top);
-    this.right = parseInt(this.left + el.outerWidth());
-    this.bottom = parseInt(this.top + el.outerHeight());
-}
-
-Coords.prototype.toString = function () {
-    var x = Math.max(this.left, 0);
-    var y = Math.max(this.top, 0);
-    return JSON.stringify({
-        x:x,
-        y:y,
-        width:this.right - x,
-        height:this.bottom - y
-    });
-};
-
-return [(new Coords($(arguments[0]))).toString()];
-, args=[{ELEMENT=d90266dc-3138-46fb-87a6-b2bb0f64cd08, element-6066-11e4-a52e-4f735466cecf=d90266dc-3138-46fb-87a6-b2bb0f64cd08}]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\PRIYAN~1.SHA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:50647}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50647/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 51c3b280fce0090ca0a90f3ad318a0ce
-14:45:19.033 [main] INFO  stepDefinitions.HomePageSteps - org.openqa.selenium.JavascriptException: javascript error: $ is not a function
-  (Session info: chrome=109.0.5414.120)
-Build info: version: '4.7.1', revision: 'c6795baf1a3'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d09395caea91c2dc649fac5e78756106, executeScript {script=function Coords(el) {
-    this.left = parseInt(el.offset().left);
-    this.top = parseInt(el.offset().top);
-    this.right = parseInt(this.left + el.outerWidth());
-    this.bottom = parseInt(this.top + el.outerHeight());
-}
-
-Coords.prototype.toString = function () {
-    var x = Math.max(this.left, 0);
-    var y = Math.max(this.top, 0);
-    return JSON.stringify({
-        x:x,
-        y:y,
-        width:this.right - x,
-        height:this.bottom - y
-    });
-};
-
-return [(new Coords($(arguments[0]))).toString()];
-, args=[{ELEMENT=cc0c074f-f499-4a14-8248-0d19c6c20ac4, element-6066-11e4-a52e-4f735466cecf=cc0c074f-f499-4a14-8248-0d19c6c20ac4}]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\PRIYAN~1.SHA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:50786}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50786/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: d09395caea91c2dc649fac5e78756106
-14:48:08.560 [main] INFO  stepDefinitions.HomePageSteps - org.openqa.selenium.JavascriptException: javascript error: $ is not a function
-  (Session info: chrome=109.0.5414.120)
-Build info: version: '4.7.1', revision: 'c6795baf1a3'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [3dc8b3630a0bad371071c5a03283ee7c, executeScript {script=function Coords(el) {
-    this.left = parseInt(el.offset().left);
-    this.top = parseInt(el.offset().top);
-    this.right = parseInt(this.left + el.outerWidth());
-    this.bottom = parseInt(this.top + el.outerHeight());
-}
-
-Coords.prototype.toString = function () {
-    var x = Math.max(this.left, 0);
-    var y = Math.max(this.top, 0);
-    return JSON.stringify({
-        x:x,
-        y:y,
-        width:this.right - x,
-        height:this.bottom - y
-    });
-};
-
-return [(new Coords($(arguments[0]))).toString()];
-, args=[{ELEMENT=eb6cf674-2d0f-402a-ac00-0099e62b32b6, element-6066-11e4-a52e-4f735466cecf=eb6cf674-2d0f-402a-ac00-0099e62b32b6}]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\PRIYAN~1.SHA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:51351}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51351/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 3dc8b3630a0bad371071c5a03283ee7c
-14:50:56.493 [main] INFO  stepDefinitions.HomePageSteps - org.openqa.selenium.JavascriptException: javascript error: $ is not a function
-  (Session info: chrome=109.0.5414.120)
-Build info: version: '4.7.1', revision: 'c6795baf1a3'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [3da062eb6be0b5b93ba8b1bffdfe605a, executeScript {script=function Coords(el) {
-    this.left = parseInt(el.offset().left);
-    this.top = parseInt(el.offset().top);
-    this.right = parseInt(this.left + el.outerWidth());
-    this.bottom = parseInt(this.top + el.outerHeight());
-}
-
-Coords.prototype.toString = function () {
-    var x = Math.max(this.left, 0);
-    var y = Math.max(this.top, 0);
-    return JSON.stringify({
-        x:x,
-        y:y,
-        width:this.right - x,
-        height:this.bottom - y
-    });
-};
-
-return [(new Coords($(arguments[0]))).toString()];
-, args=[{ELEMENT=0b593ec3-98f3-41a4-8b3e-ff0d5126ffe5, element-6066-11e4-a52e-4f735466cecf=0b593ec3-98f3-41a4-8b3e-ff0d5126ffe5}]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\PRIYAN~1.SHA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:51558}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51558/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 3da062eb6be0b5b93ba8b1bffdfe605a
-14:54:47.322 [main] INFO  stepDefinitions.HomePageSteps - image == null!
-14:56:01.423 [main] INFO  stepDefinitions.HomePageSteps - image == null!
-14:58:41.254 [main] INFO  stepDefinitions.HomePageSteps - image == null!
-14:59:28.648 [main] INFO  stepDefinitions.HomePageSteps - image == null!
-15:01:19.989 [main] INFO  stepDefinitions.HomePageSteps - image == null!
-00:21:56.341 [main] INFO  stepDefinitions.HomePageSteps - no such element: Unable to locate element: {"method":"css selector","selector":".action\.search"}
-  (Session info: chrome=109.0.5414.120)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.7.1', revision: 'c6795baf1a3'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [06bd21fe6121d03f6811e29af03693d0, findElement {using=class name, value=action.search}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\PRIYAN~1.SHA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:58441}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58441/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 06bd21fe6121d03f6811e29af03693d0
-01:09:38.870 [main] INFO  stepDefinitions.HomePageSteps - Keys to send should be a not null CharSequence
-01:12:48.174 [main] INFO  stepDefinitions.HomePageSteps - Cannot invoke "Object.toString()" because the return value of "cucumber.ScenarioContext.getContext(enums.Context)" is null
-01:15:28.734 [main] INFO  stepDefinitions.HomePageSteps - Cannot invoke "Object.toString()" because the return value of "cucumber.ScenarioContext.getContext(enums.Context)" is null
-01:23:03.804 [main] INFO  stepDefinitions.HomePageSteps - Cannot invoke "Object.toString()" because the return value of "cucumber.ScenarioContext.getContext(enums.Context)" is null
-01:24:48.746 [main] INFO  stepDefinitions.HomePageSteps - Cannot invoke "Object.toString()" because "pwd" is null
-01:32:32.070 [main] INFO  stepDefinitions.HomePageSteps - Cannot invoke "String.toString()" because "pwd" is null
-01:34:39.591 [main] INFO  stepDefinitions.HomePageSteps - Cannot invoke "String.toString()" because "pwd" is null
-01:37:00.970 [main] INFO  stepDefinitions.HomePageSteps - Cannot invoke "String.toString()" because "cnfpwd" is null
-01:38:39.049 [main] INFO  stepDefinitions.HomePageSteps - Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //div[@data-bind='html: $parent.prepareMessageForHtml(message.text)']' (tried for 10 second(s) with 500 milliseconds interval)
-02:08:50.524 [main] INFO  stepDefinitions.HomePageSteps - Cannot invoke "Object.toString()" because the return value of "cucumber.ScenarioContext.getContext(enums.Context)" is null
-02:12:25.926 [main] INFO  stepDefinitions.HomePageSteps - no such element: Unable to locate element: {"method":"css selector","selector":".action\.login\.primary"}
-  (Session info: chrome=109.0.5414.120)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.7.1', revision: 'c6795baf1a3'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [0d8bf5c468def6f12881ee0ad5aae507, findElement {using=class name, value=action.login.primary}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\PRIYAN~1.SHA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:61201}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61201/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 0d8bf5c468def6f12881ee0ad5aae507
-23:56:27.568 [main] INFO  stepDefinitions.HomePageSteps - no such element: Unable to locate element: {"method":"css selector","selector":"#pass\-error"}
-  (Session info: chrome=109.0.5414.120)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.7.1', revision: 'c6795baf1a3'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [14c518a0c65b125a9f01ce7c0a8f5a60, findElement {using=id, value=pass-error}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\PRIYAN~1.SHA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:54980}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54980/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 14c518a0c65b125a9f01ce7c0a8f5a60
-00:05:17.353 [main] INFO  stepDefinitions.HomePageSteps - no such element: Unable to locate element: {"method":"css selector","selector":"#pass\-error"}
-  (Session info: chrome=109.0.5414.120)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.7.1', revision: 'c6795baf1a3'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [b9abdad4cff9e2b1472a6b692ca1d37f, findElement {using=id, value=pass-error}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\PRIYAN~1.SHA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:55464}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55464/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: b9abdad4cff9e2b1472a6b692ca1d37f
-00:07:02.197 [main] INFO  stepDefinitions.HomePageSteps - no such element: Unable to locate element: {"method":"css selector","selector":"#pass\-error"}
-  (Session info: chrome=109.0.5414.120)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.7.1', revision: 'c6795baf1a3'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [4fc95a6d0a4cba3c98aa76ce97f2eb75, findElement {using=id, value=pass-error}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\PRIYAN~1.SHA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:55597}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55597/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 4fc95a6d0a4cba3c98aa76ce97f2eb75
-00:15:52.469 [main] INFO  stepDefinitions.HomePageSteps - no such element: Unable to locate element: {"method":"css selector","selector":"#pass\-error"}
-  (Session info: chrome=109.0.5414.120)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.7.1', revision: 'c6795baf1a3'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [a6c28d458b97c8dd5b98503705038274, findElement {using=id, value=pass-error}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\PRIYAN~1.SHA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:56284}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56284/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: a6c28d458b97c8dd5b98503705038274
-23:02:36.670 [main] INFO  stepDefinitions.HomePageSteps - no such element: Unable to locate element: {"method":"css selector","selector":".a"}
-  (Session info: chrome=109.0.5414.120)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.7.1', revision: 'c6795baf1a3'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [c4c0ff683ca99ec354de176e97531afc, findChildElement {id=8268bda1-411d-48e6-834d-1758cb2fb7c8, using=class name, value=a}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\PRIYAN~1.SHA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:51430}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51430/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: c4c0ff683ca99ec354de176e97531afc
+Command: [bef794545989fe5cbca2e23566d6f4e3, findElement {using=link text, value=My Orders}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\PRIYAN~1.SHA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:55519}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55519/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: bef794545989fe5cbca2e23566d6f4e3

@@ -48,20 +48,3 @@ Scenario: Verify that user can create a new account with valid inputs for all th
 	And user clicks on Create an Account button
 	Then user will see "Thank you for registering with Fake Online Clothing Store." message on next page
 	
-@smoke @sanity @regression @Critical
-Scenario: Verify that newly registered user can login subsequently with same credentials.
-	And user enters First Name
-	And user enters Last Name
-	And user enters Email
-	And user enters Password
-	And user enters same Password in Confirm Password
-	And user clicks on Create an Account button
-	And user will see "Thank you for registering with Fake Online Clothing Store." message on next page
-	And user logs out from the account
-	And user clicks on Sign In link
-	And user enters newly registered email
-	And user enters password for above email
-	And user clicks on Sign In button
-	Then user will see "Welcome, " text along with first & last name at top right corner of the page
-
-	

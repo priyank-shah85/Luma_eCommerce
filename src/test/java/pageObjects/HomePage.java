@@ -82,19 +82,18 @@ public class HomePage extends BasePage {
 		String webImageLoc = imgLuma.getAttribute("src");
 		//System.out.println("URL is: " + new URL(webImageLoc));
 		BufferedImage buffimg =ImageIO.read(new URL(webImageLoc));
-		System.out.println(buffimg);
 		File outputFile = new File(System.getProperty("user.dir")+"\\Screenshots\\expected.png");
 		ImageIO.write(buffimg, "png", outputFile);
-		System.out.println("after write");
 		
 		// Taking screenshot of image element from search results
-	    Screenshot shot = new AShot().takeScreenshot(driver, imgLuma);
+		Screenshot screenshot = new AShot().takeScreenshot(driver, logoLuma);
+	    System.out.println("after taking screenshot");
 	    File screenshotFile = new File(System.getProperty("user.dir") + "\\Screenshots\\actual.png");
-		ImageIO.write(shot.getImage(), "png", screenshotFile);
+		ImageIO.write(screenshot.getImage(), "png", screenshotFile);
 		
 		// Comparing both images
 		BufferedImage expectedImage = ImageIO.read(outputFile); // Getting expected image
-		BufferedImage actualImage = shot.getImage(); // Getting actual image
+		BufferedImage actualImage = screenshot.getImage(); // Getting actual image
 		
 		ImageDiffer imgDiff = new ImageDiffer();
 		ImageDiff diff = imgDiff.makeDiff(expectedImage, actualImage); // Storing diff result

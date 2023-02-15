@@ -12,7 +12,7 @@ Background:
 Scenario: Verifying the correct landing page by browser title assertion.
 	Then user can see browser title as "Home Page - Magento eCommerce - website to practice selenium | demo website for automation testing | selenium practice sites | selenium demo sites | best website to practice selenium automation | automation practice sites Magento Commerce - website to practice selenium | demo website for automation testing | selenium practice sites"
 	
-@Sanity @regression @Critical
+@Sanity @regression @Critical @temp
 Scenario: Verifying the correct image on landing page.
 	Then user can see the LUMA image on page
 

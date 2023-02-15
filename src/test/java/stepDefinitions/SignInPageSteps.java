@@ -76,7 +76,7 @@ public class SignInPageSteps {
 	@And("user enters newly registered email")
 	public void user_enters_newly_registered_email() {
 		try {
-			sip.enterEmailToSignIn(null);
+			sip.enterEmailToSignIn("");
 		}
 		catch(Exception e) {
 			logger.info(e.getMessage());
@@ -87,7 +87,7 @@ public class SignInPageSteps {
 	@And("user enters password for above email")
 	public void user_enters_password_for_above_email() {
 		try {
-			sip.enterPasswordToSignIn(null);
+			sip.enterPasswordToSignIn("");
 		}
 		catch(Exception e) {
 			logger.info(e.getMessage());
