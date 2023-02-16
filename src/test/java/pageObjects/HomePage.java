@@ -114,7 +114,7 @@ public class HomePage extends BasePage {
 		
 		for(int i=0; i<topMenuItems.size(); i++) {
 			List<WebElement> topMenuLinks = driver.findElements(By.xpath("//li[contains(@class, 'level0')]"));
-			System.out.println(topMenuLinks.get(i).getText());
+			//System.out.println(topMenuLinks.get(i).getText());
 			if(topMenuLinks.get(i).getText().contentEquals(expectedLinkText)) {
 				results = true;
 				break;

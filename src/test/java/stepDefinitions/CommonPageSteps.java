@@ -35,5 +35,16 @@ public class CommonPageSteps {
 			Assert.fail("Not able to redirect to previous page.");
 		}
 	}
+	
+	@And("user clicks on LUMA logo")
+	public void user_clicks_on_luma_logo() {
+		try {
+			cp.clickLUMALogo();
+		}
+		catch(Exception e) {
+			logger.info(e.getMessage());
+			Assert.fail("Not able to click on LUMA logo.");
+		}
+	}
 
 }

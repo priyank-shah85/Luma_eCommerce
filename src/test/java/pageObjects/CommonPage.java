@@ -19,6 +19,9 @@ public class CommonPage extends BasePage {
 	@FindBy(xpath = "//h1[@class='page-title']//span")
 	WebElement pageTitle;
 	
+	@FindBy(xpath = "//a[@aria-label='store logo']//img")
+	WebElement logoLuma;
+	
 	// Action methods
 	public boolean verifyPageTitle(String expectedTitle) {
 		// System.out.println(pageTitle.getText());
@@ -38,6 +41,10 @@ public class CommonPage extends BasePage {
 	
 	public void clickBrowserBackButton() {
 		driver.navigate().back();
+	}
+	
+	public void clickLUMALogo() {
+		logoLuma.click();
 	}
 
 }
