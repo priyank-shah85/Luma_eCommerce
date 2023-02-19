@@ -17,6 +17,7 @@ public class CommonPageSteps {
 	@And("user can see page heading as {string}")
 	public void user_can_see_page_heading_as(String expectedTitle) {
 		try {
+			Thread.sleep(4000);
 			Assert.assertTrue("User did not redirect to " + expectedTitle + " page.", cp.verifyPageTitle(expectedTitle));
 		}
 		catch(Exception e) {
@@ -44,6 +45,28 @@ public class CommonPageSteps {
 		catch(Exception e) {
 			logger.info(e.getMessage());
 			Assert.fail("Not able to click on LUMA logo.");
+		}
+	}
+	
+	@And("user can see {string} product added next to cart icon")
+	public void user_can_see_product_added_next_to_cart_icon(String count) {
+		try {
+			Assert.assertTrue("Count has not increased.", cp.verifyProductCountAddedToCart(count));
+		}
+		catch(Exception e) {
+			logger.info(e.getMessage());
+			Assert.fail("Product was not successfully added to cart.");
+		}
+	}
+	
+	@And("user clicks on cart icon")
+	public void user_clicks_on_cart_icon() {
+		try {
+			cp.clickMinicartLink();
+		}
+		catch(Exception e) {
+			logger.info(e.getMessage());
+			Assert.fail("Not able to click on Minicart icon.");
 		}
 	}
 

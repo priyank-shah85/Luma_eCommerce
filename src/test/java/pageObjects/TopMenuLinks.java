@@ -1,8 +1,13 @@
 package pageObjects;
 
+import java.time.Duration;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class TopMenuLinks extends BasePage {
 
@@ -10,7 +15,14 @@ public class TopMenuLinks extends BasePage {
 		super(driver);
 	}
 	
+	// Global declarations
+	Actions action = new Actions(driver);
+	
 	//<---------- Storing elements for Level0, Level1 & Level2 menu links ----------> 
+	// Element for top menu area
+	@FindBy(id = "ui-id-2")
+	WebElement topLinks;
+	
 	// Elements for Level0 main menus
 	@FindBy(linkText = "What's New")
 	WebElement lnkWhatsNew;
@@ -77,6 +89,90 @@ public class TopMenuLinks extends BasePage {
 	
 	//<---------- Action methods to mouse hover/click on Level0, Level1 & Level2 menu links ----------> 
 	// Action methods for Level0 main menus
+	public void mouseHoverOnMainMenu(String mainMenu) {
+		new WebDriverWait(driver, Duration.ofSeconds(10)).until(ExpectedConditions.elementToBeClickable(topLinks));
+		
+		switch(mainMenu) {
+		
+		case "Men":
+			action.moveToElement(lnkMen).perform();
+			break;
+			
+		case "Women":
+			action.moveToElement(lnkWomen).perform();
+			break;
+		
+		case "Gear":
+			action.moveToElement(lnkGear).perform();
+			break;
+			
+		default:
+			break;
+		}
+	}
 	
+	public void mouseHoverOnSubMenu(String subMenu) {
+		switch(subMenu) {
+		
+		case "Tops":
+			action.moveToElement(lnkTops).perform();
+			break;
+			
+		case "Bottoms":
+			action.moveToElement(lnkBottoms).perform();
+			break;
+			
+		case "Bags":
+			action.moveToElement(lnkBags).click().build().perform();
+			break;
+			
+		case "Fitness Equipment":
+			action.moveToElement(lnkFitnessEquipment).click().build().perform();
+			break;
+			
+		case "Watches":
+			action.moveToElement(lnkWatches).click().build().perform();
+			break;
+			
+		default:
+			break;
+		}
+	}
+	
+	public void clickOnProductLink(String link) {
+		switch(link) {
+		
+		case "Jackets":
+			action.moveToElement(lnkJackets).click().build().perform();
+			break;
+			
+		case "Hoodies & Sweatshirts":
+			action.moveToElement(lnkHoodiesSweatshirts).click().build().perform();
+			break;
+			
+		case "Tees":
+			action.moveToElement(lnkTees).click().build().perform();
+			break;
+			
+		case "Tanks":
+			action.moveToElement(lnkTanks).click().build().perform();
+			break;
+			
+		case "Bras & Tanks":
+			action.moveToElement(lnkBrasTanks).click().build().perform();
+			break;
+			
+		case "Pants":
+			action.moveToElement(lnkPants).click().build().perform();
+			break;
+			
+		case "Shorts":
+			action.moveToElement(lnkShorts).click().build().perform();
+			break;
+			
+		default:
+			break;
+		}
+	}
 
 }
