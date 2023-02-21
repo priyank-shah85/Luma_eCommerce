@@ -94,6 +94,9 @@ public class TopMenuLinks extends BasePage {
 		
 		switch(mainMenu) {
 		
+		case "What's New":
+			action.moveToElement(lnkWhatsNew).click().build().perform();
+		
 		case "Men":
 			action.moveToElement(lnkMen).perform();
 			break;
@@ -105,6 +108,9 @@ public class TopMenuLinks extends BasePage {
 		case "Gear":
 			action.moveToElement(lnkGear).perform();
 			break;
+			
+		case "Sale":
+			action.moveToElement(lnkSale).click().build().perform();
 			
 		default:
 			break;
@@ -133,6 +139,9 @@ public class TopMenuLinks extends BasePage {
 		case "Watches":
 			action.moveToElement(lnkWatches).click().build().perform();
 			break;
+			
+		case "Video Download":
+			action.moveToElement(lnkVideoDownload).click().build().perform();
 			
 		default:
 			break;

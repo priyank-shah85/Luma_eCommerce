@@ -32,7 +32,7 @@ import org.junit.runner.RunWith;
 					
 			dryRun = false,
 			monochrome = true,
-			   tags = "@temp" // Scenarios tagged with @sanity
+			   tags = "@regression" // Scenarios tagged with @sanity
 			// tags = "@sanity and @regression" //Scenarios tagged with both @sanity and @regression
 			// tags = "@sanity or @regression" //Scenarios tagged with either @sanity or @regression
 			// tags = "@sanity and not @regression", //Scenarios tagged with @sanity but not tagged with @regression
