@@ -1,0 +1,408 @@
+14:50:29.986 [main] INFO  stepDefinitions.HomePageSteps - org.openqa.selenium.JavascriptException: javascript error: $ is not a function
+  (Session info: chrome=109.0.5414.120)
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d54b5079435cd47b67d2e34bbed89990, executeScript {script=function Coords(el) {
+    this.left = parseInt(el.offset().left);
+    this.top = parseInt(el.offset().top);
+    this.right = parseInt(this.left + el.outerWidth());
+    this.bottom = parseInt(this.top + el.outerHeight());
+}
+
+Coords.prototype.toString = function () {
+    var x = Math.max(this.left, 0);
+    var y = Math.max(this.top, 0);
+    return JSON.stringify({
+        x:x,
+        y:y,
+        width:this.right - x,
+        height:this.bottom - y
+    });
+};
+
+return [(new Coords($(arguments[0]))).toString()];
+, args=[{ELEMENT=16550ce2-f99d-4046-a545-5999ce8d81bf, element-6066-11e4-a52e-4f735466cecf=16550ce2-f99d-4046-a545-5999ce8d81bf}]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\PRIYAN~1.SHA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:58516}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58516/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d54b5079435cd47b67d2e34bbed89990
+14:57:13.474 [main] INFO  stepDefinitions.HomePageSteps - org.openqa.selenium.JavascriptException: javascript error: $ is not a function
+  (Session info: chrome=109.0.5414.120)
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b883c73b34a4b829f948cddd4dee8b8d, executeScript {script=function Coords(el) {
+    this.left = parseInt(el.offset().left);
+    this.top = parseInt(el.offset().top);
+    this.right = parseInt(this.left + el.outerWidth());
+    this.bottom = parseInt(this.top + el.outerHeight());
+}
+
+Coords.prototype.toString = function () {
+    var x = Math.max(this.left, 0);
+    var y = Math.max(this.top, 0);
+    return JSON.stringify({
+        x:x,
+        y:y,
+        width:this.right - x,
+        height:this.bottom - y
+    });
+};
+
+return [(new Coords($(arguments[0]))).toString()];
+, args=[{ELEMENT=ebc1284e-0f49-49c6-905b-6dd22b7f5601, element-6066-11e4-a52e-4f735466cecf=ebc1284e-0f49-49c6-905b-6dd22b7f5601}]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\PRIYAN~1.SHA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:59057}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59057/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b883c73b34a4b829f948cddd4dee8b8d
+15:01:06.738 [main] INFO  stepDefinitions.HomePageSteps - org.openqa.selenium.JavascriptException: javascript error: $ is not a function
+  (Session info: chrome=109.0.5414.120)
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6e3f519da60b049038ca7b13f744d6bd, executeScript {script=function Coords(el) {
+    this.left = parseInt(el.offset().left);
+    this.top = parseInt(el.offset().top);
+    this.right = parseInt(this.left + el.outerWidth());
+    this.bottom = parseInt(this.top + el.outerHeight());
+}
+
+Coords.prototype.toString = function () {
+    var x = Math.max(this.left, 0);
+    var y = Math.max(this.top, 0);
+    return JSON.stringify({
+        x:x,
+        y:y,
+        width:this.right - x,
+        height:this.bottom - y
+    });
+};
+
+return [(new Coords($(arguments[0]))).toString()];
+, args=[{ELEMENT=ddd2d910-fb5b-406a-b34b-4e0be6b51e33, element-6066-11e4-a52e-4f735466cecf=ddd2d910-fb5b-406a-b34b-4e0be6b51e33}]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\PRIYAN~1.SHA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:59352}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59352/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6e3f519da60b049038ca7b13f744d6bd
+15:16:13.344 [main] INFO  stepDefinitions.HomePageSteps - org.openqa.selenium.JavascriptException: javascript error: $ is not a function
+  (Session info: chrome=109.0.5414.120)
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4297ff732052046eda7bc2bdc60b20f9, executeScript {script=function Coords(el) {
+    this.left = parseInt(el.offset().left);
+    this.top = parseInt(el.offset().top);
+    this.right = parseInt(this.left + el.outerWidth());
+    this.bottom = parseInt(this.top + el.outerHeight());
+}
+
+Coords.prototype.toString = function () {
+    var x = Math.max(this.left, 0);
+    var y = Math.max(this.top, 0);
+    return JSON.stringify({
+        x:x,
+        y:y,
+        width:this.right - x,
+        height:this.bottom - y
+    });
+};
+
+return [(new Coords($(arguments[0]))).toString()];
+, args=[{ELEMENT=54d57d8b-75d7-4cb1-bb2a-1524444bb0c0, element-6066-11e4-a52e-4f735466cecf=54d57d8b-75d7-4cb1-bb2a-1524444bb0c0}]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\PRIYAN~1.SHA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:60875}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60875/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4297ff732052046eda7bc2bdc60b20f9
+15:31:26.731 [main] INFO  stepDefinitions.HomePageSteps - org.openqa.selenium.JavascriptException: javascript error: $ is not a function
+  (Session info: chrome=109.0.5414.120)
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f38e25dd02ad433d7486cefc1b9579fc, executeScript {script=function Coords(el) {
+    this.left = parseInt(el.offset().left);
+    this.top = parseInt(el.offset().top);
+    this.right = parseInt(this.left + el.outerWidth());
+    this.bottom = parseInt(this.top + el.outerHeight());
+}
+
+Coords.prototype.toString = function () {
+    var x = Math.max(this.left, 0);
+    var y = Math.max(this.top, 0);
+    return JSON.stringify({
+        x:x,
+        y:y,
+        width:this.right - x,
+        height:this.bottom - y
+    });
+};
+
+return [(new Coords($(arguments[0]))).toString()];
+, args=[{ELEMENT=085184e2-426b-4e9e-b210-cf5d079b3a44, element-6066-11e4-a52e-4f735466cecf=085184e2-426b-4e9e-b210-cf5d079b3a44}]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\PRIYAN~1.SHA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:62419}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62419/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f38e25dd02ad433d7486cefc1b9579fc
+22:18:29.439 [main] INFO  stepDefinitions.HomePageSteps - org.openqa.selenium.JavascriptException: javascript error: $ is not a function
+  (Session info: chrome=109.0.5414.120)
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b16a508457778dcab1f51f7e16708188, executeScript {script=function Coords(el) {
+    this.left = parseInt(el.offset().left);
+    this.top = parseInt(el.offset().top);
+    this.right = parseInt(this.left + el.outerWidth());
+    this.bottom = parseInt(this.top + el.outerHeight());
+}
+
+Coords.prototype.toString = function () {
+    var x = Math.max(this.left, 0);
+    var y = Math.max(this.top, 0);
+    return JSON.stringify({
+        x:x,
+        y:y,
+        width:this.right - x,
+        height:this.bottom - y
+    });
+};
+
+return [(new Coords($(arguments[0]))).toString()];
+, args=[{ELEMENT=552bc3d2-9eb7-4607-a8d2-8ea06de9472e, element-6066-11e4-a52e-4f735466cecf=552bc3d2-9eb7-4607-a8d2-8ea06de9472e}]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\PRIYAN~1.SHA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:63347}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63347/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b16a508457778dcab1f51f7e16708188
+22:46:58.656 [main] INFO  stepDefinitions.HomePageSteps - Cannot invoke "String.isEmpty()" because "email" is null
+22:51:37.943 [main] INFO  stepDefinitions.HomePageSteps - Cannot invoke "String.contentEquals(StringBuffer)" because "email" is null
+23:20:50.649 [main] INFO  stepDefinitions.HomePageSteps - no such element: Unable to locate element: {"method":"css selector","selector":".box.box-newsletter"}
+  (Session info: chrome=109.0.5414.120)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [363e29cc681e0a54fa47a89012e80105, findElement {using=css selector, value=.box.box-newsletter}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\PRIYAN~1.SHA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:50394}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50394/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 363e29cc681e0a54fa47a89012e80105
+22:19:21.509 [main] INFO  stepDefinitions.HomePageSteps - Cannot invoke "Object.toString()" because the return value of "cucumber.ScenarioContext.getContext(enums.Context)" is null
+22:36:51.505 [main] INFO  stepDefinitions.HomePageSteps - Cannot invoke "Object.toString()" because the return value of "cucumber.ScenarioContext.getContext(enums.Context)" is null
+23:17:41.561 [main] INFO  stepDefinitions.HomePageSteps - no such element: Unable to locate element: {"method":"link text","selector":"My Orders"}
+  (Session info: chrome=109.0.5414.120)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [bef794545989fe5cbca2e23566d6f4e3, findElement {using=link text, value=My Orders}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\PRIYAN~1.SHA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:55519}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55519/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: bef794545989fe5cbca2e23566d6f4e3
+23:59:07.052 [main] INFO  stepDefinitions.HomePageSteps - java.lang.reflect.InvocationTargetException
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8dab76f591799bc969a35c88b5242d87, actions {actions=[org.openqa.selenium.interactions.Sequence@256589a1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\PRIYAN~1.SHA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:51956}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51956/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8dab76f591799bc969a35c88b5242d87
+22:52:39.948 [main] INFO  stepDefinitions.HomePageSteps - no such element: Unable to locate element: {"method":"tag name","selector":"strong"}
+  (Session info: chrome=109.0.5414.120)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ea24c199c32aaf1141d005936c4bb4de, findChildElement {id=12377e32-7807-4a21-8830-9ca115d25f16, using=tag name, value=strong}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\PRIYAN~1.SHA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:63301}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63301/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ea24c199c32aaf1141d005936c4bb4de
+23:06:58.744 [main] INFO  stepDefinitions.HomePageSteps - Index 1 out of bounds for length 1
+23:11:28.151 [main] INFO  stepDefinitions.HomePageSteps - Index 1 out of bounds for length 1
+23:16:50.972 [main] INFO  stepDefinitions.HomePageSteps - Index 1 out of bounds for length 1
+23:23:29.132 [main] INFO  stepDefinitions.HomePageSteps - Index 1 out of bounds for length 1
+23:28:00.969 [main] INFO  stepDefinitions.HomePageSteps - Index 1 out of bounds for length 1
+23:31:56.561 [main] INFO  stepDefinitions.HomePageSteps - Index 1 out of bounds for length 1
+23:34:24.171 [main] INFO  stepDefinitions.HomePageSteps - no such element: Unable to locate element: {"method":"tag name","selector":"strong"}
+  (Session info: chrome=109.0.5414.120)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [30d25cc1162090245705dea29f0ce66e, findChildElement {id=9aad0d50-33ef-4a5c-81ca-64b5049cc701, using=tag name, value=strong}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\PRIYAN~1.SHA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:65350}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65350/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 30d25cc1162090245705dea29f0ce66e
+23:39:42.903 [main] INFO  stepDefinitions.HomePageSteps - no such element: Unable to locate element: {"method":"tag name","selector":"strong"}
+  (Session info: chrome=109.0.5414.120)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [89ef25fdb428ee4500ac8d24f90aa154, findChildElement {id=8f000bc7-f6cc-4752-a59c-d943c8ad4cff, using=tag name, value=strong}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\PRIYAN~1.SHA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:49236}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49236/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 89ef25fdb428ee4500ac8d24f90aa154
+00:23:40.551 [main] INFO  stepDefinitions.HomePageSteps - element click intercepted: Element <button data-role="opc-continue" type="submit" class="button action continue primary">...</button> is not clickable at point (812, 452). Other element would receive the click: <div id="checkout-loader" data-role="checkout-loader" class="loading-mask">...</div>
+  (Session info: chrome=109.0.5414.120)
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [eafb25c7a220713c985d6651e5e232ed, clickElement {id=adf1317b-e0f8-4946-a03f-9f36d370f4ad}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\PRIYAN~1.SHA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:49242}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49242/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (eafb25c7a220713c985d6651e5e232ed)] -> css selector: .button.action.continue.primary]
+Session ID: eafb25c7a220713c985d6651e5e232ed
+00:28:23.269 [main] INFO  stepDefinitions.HomePageSteps - element click intercepted: Element <button data-role="opc-continue" type="submit" class="button action continue primary">...</button> is not clickable at point (812, 452). Other element would receive the click: <div class="shipping-address-items">...</div>
+  (Session info: chrome=109.0.5414.120)
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d4577c07763bebe8b24357ffbeea4788, clickElement {id=22fe723d-7386-4537-8967-91e5878168ba}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\PRIYAN~1.SHA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:49529}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49529/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (d4577c07763bebe8b24357ffbeea4788)] -> css selector: .button.action.continue.primary]
+Session ID: d4577c07763bebe8b24357ffbeea4788
+13:37:39.126 [main] INFO  stepDefinitions.HomePageSteps - invalid selector: Unable to locate an element with the xpath expression //table[@id='my-orders-table']//tbody//tr[" + i + "]" because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//table[@id='my-orders-table']//tbody//tr[" + i + "]"' is not a valid XPath expression.
+  (Session info: chrome=109.0.5414.120)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2f4a2e6530f8e9792d7a428483cb9439, findElement {using=xpath, value=//table[@id='my-orders-table']//tbody//tr[" + i + "]"}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\PRIYAN~1.SHA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:63615}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63615/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2f4a2e6530f8e9792d7a428483cb9439
+23:21:39.897 [main] INFO  stepDefinitions.HomePageSteps - Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on WINDOWS (247ff6afb3e86d6396fe627a94e7a8d7)] -> css selector: .subtitle.empty] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\PRIYAN~1.SHA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:58335}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58335/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 247ff6afb3e86d6396fe627a94e7a8d7
+12:53:21.327 [main] INFO  stepDefinitions.HomePageSteps - Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on WINDOWS (8074db60b00791e7babc15d630602dac)] -> css selector: .subtitle.empty] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\PRIYAN~1.SHA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:63018}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63018/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8074db60b00791e7babc15d630602dac
+12:56:27.232 [main] INFO  stepDefinitions.HomePageSteps - Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on WINDOWS (b602b76bfd1572cb29ae491ae2257626)] -> css selector: .subtitle.empty] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\PRIYAN~1.SHA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:63533}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63533/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b602b76bfd1572cb29ae491ae2257626
+14:13:10.252 [main] INFO  stepDefinitions.HomePageSteps - Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on WINDOWS (fd8fcfa8adeee00bf88d9f37456032fc)] -> css selector: .subtitle.empty] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\PRIYAN~1.SHA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:53989}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53989/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fd8fcfa8adeee00bf88d9f37456032fc
+23:40:11.592 [main] INFO  stepDefinitions.HomePageSteps - Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on WINDOWS (97a2db04fb6987c8fcaf20b92ca26b36)] -> css selector: .subtitle.empty] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\PRIYAN~1.SHA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:60484}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60484/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 97a2db04fb6987c8fcaf20b92ca26b36
+23:46:05.546 [main] INFO  stepDefinitions.HomePageSteps - Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on WINDOWS (c42e068a47ae9d131c0060baa80c6c56)] -> xpath: //div[@data-bind='html: $parent.prepareMessageForHtml(message.text)']] (tried for 10 second(s) with 500 milliseconds interval)
+22:39:57.572 [main] INFO  stepDefinitions.HomePageSteps - element not interactable
+  (Session info: chrome=109.0.5414.120)
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ffb4e7a242d8d85ac22dd02bab704490, clickElement {id=7f2c37d0-fab8-42b6-b033-955e8c6d2a77}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\PRIYAN~1.SHA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:59501}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59501/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[[[[[ChromeDriver: chrome on WINDOWS (ffb4e7a242d8d85ac22dd02bab704490)] -> xpath: //ul[@class='items pages-items']]] -> xpath: //ul[@class='items pages-items']//li]] -> xpath: //a[@title='Next']]
+Session ID: ffb4e7a242d8d85ac22dd02bab704490
+22:44:05.227 [main] INFO  stepDefinitions.HomePageSteps - element not interactable
+  (Session info: chrome=109.0.5414.120)
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6db12a2981b46b9cc005e5c419360164, clickElement {id=21d31909-6a29-4aff-ade5-891d4459030d}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\PRIYAN~1.SHA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:59720}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59720/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[[[[[ChromeDriver: chrome on WINDOWS (6db12a2981b46b9cc005e5c419360164)] -> xpath: //ul[@class='items pages-items']]] -> tag name: li]] -> xpath: //a[@title='Next']]
+Session ID: 6db12a2981b46b9cc005e5c419360164
+22:47:57.027 [main] INFO  stepDefinitions.HomePageSteps - Index 5 out of bounds for length 5
+22:57:47.711 [main] INFO  stepDefinitions.HomePageSteps - element not interactable
+  (Session info: chrome=109.0.5414.120)
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f39c9e3bf572955a13094706fae008a3, clickElement {id=65a689c8-a38f-416b-9c3c-60d1b00993e1}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\PRIYAN~1.SHA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:60370}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60370/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[[[[[ChromeDriver: chrome on WINDOWS (f39c9e3bf572955a13094706fae008a3)] -> xpath: //ul[@class='items pages-items']]] -> tag name: li]] -> xpath: //a[@title='Next']]
+Session ID: f39c9e3bf572955a13094706fae008a3
+22:59:40.179 [main] INFO  stepDefinitions.HomePageSteps - stale element reference: element is not attached to the page document
+  (Session info: chrome=109.0.5414.120)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [342e7cfc1348d517f58151db628ecb44, findChildElements {id=79874f76-539d-474f-a363-1719b5a323d5, using=tag name, value=li}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\PRIYAN~1.SHA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:60507}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60507/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 342e7cfc1348d517f58151db628ecb44
+23:06:45.341 [main] INFO  stepDefinitions.HomePageSteps - stale element reference: element is not attached to the page document
+  (Session info: chrome=109.0.5414.120)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ed87315a363168eee6deaaf8581c6057, findChildElements {id=a230d4d3-17c6-40ac-a37c-bbf4d8ca9990, using=tag name, value=li}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\PRIYAN~1.SHA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:60973}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60973/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ed87315a363168eee6deaaf8581c6057
+23:15:14.842 [main] INFO  stepDefinitions.HomePageSteps - no such element: Unable to locate element: {"method":"tag name","selector":"a"}
+  (Session info: chrome=109.0.5414.120)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e84c47d8c4f492c862e19da8edb53aa4, findChildElement {id=12a6bca0-067e-4f24-af72-6c105a8869e1, using=tag name, value=a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\PRIYAN~1.SHA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:61368}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61368/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e84c47d8c4f492c862e19da8edb53aa4
+23:19:33.022 [main] INFO  stepDefinitions.HomePageSteps - no such element: Unable to locate element: {"method":"tag name","selector":"a"}
+  (Session info: chrome=109.0.5414.120)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4edf8bb232ecd7ad3f9c9fb35f71c8a0, findChildElement {id=e8c26470-892f-4081-9df9-9364a7f8788c, using=tag name, value=a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\PRIYAN~1.SHA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:61597}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61597/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4edf8bb232ecd7ad3f9c9fb35f71c8a0
+23:21:55.252 [main] INFO  stepDefinitions.HomePageSteps - no such element: Unable to locate element: {"method":"tag name","selector":"a"}
+  (Session info: chrome=109.0.5414.120)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [70b71d9e0dd179dacb83aa8ccaa7ca4d, findChildElement {id=5dc0ff9d-25fa-4455-ad76-e7f2045cff49, using=tag name, value=a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\PRIYAN~1.SHA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:61743}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61743/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 70b71d9e0dd179dacb83aa8ccaa7ca4d
+23:37:58.364 [main] INFO  stepDefinitions.HomePageSteps - no such element: Unable to locate element: {"method":"tag name","selector":"a"}
+  (Session info: chrome=109.0.5414.120)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [67c52cad451b27f8d2b10152f312ed0e, findChildElement {id=a4397389-c171-4dc8-9c0e-685ad8e4768f, using=tag name, value=a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\PRIYAN~1.SHA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:61914}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61914/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 67c52cad451b27f8d2b10152f312ed0e
+23:40:01.478 [main] INFO  stepDefinitions.HomePageSteps - no such element: Unable to locate element: {"method":"tag name","selector":"a"}
+  (Session info: chrome=109.0.5414.120)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3235804059bdecf9689a409f1e11c441, findChildElement {id=aae7e23b-6c7c-4ee3-9bd5-bf1ff7fcf634, using=tag name, value=a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\PRIYAN~1.SHA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:62566}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62566/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 3235804059bdecf9689a409f1e11c441
+23:45:02.510 [main] INFO  stepDefinitions.HomePageSteps - no such element: Unable to locate element: {"method":"tag name","selector":"a"}
+  (Session info: chrome=109.0.5414.120)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ec21faacd7546073202f50c9ff2b1749, findChildElement {id=dd3f846b-4055-4bcf-9cf1-8c775b981802, using=tag name, value=a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\PRIYAN~1.SHA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:62833}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62833/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ec21faacd7546073202f50c9ff2b1749
+22:33:10.682 [main] INFO  stepDefinitions.HomePageSteps - no such element: Unable to locate element: {"method":"tag name","selector":"a"}
+  (Session info: chrome=109.0.5414.120)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5d993fbd1388c8c244380c7a7cc73085, findChildElement {id=32236e0b-1974-44f0-b696-84eb3a034de6, using=tag name, value=a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\PRIYAN~1.SHA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:51805}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51805/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5d993fbd1388c8c244380c7a7cc73085
+22:41:26.777 [main] INFO  stepDefinitions.HomePageSteps - stale element reference: element is not attached to the page document
+  (Session info: chrome=109.0.5414.120)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a5cf3d50cfc315622266373217ad0824, findChildElements {id=d15f9727-c95a-460d-abac-dde9ea880e20, using=tag name, value=li}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\PRIYAN~1.SHA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:52128}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52128/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a5cf3d50cfc315622266373217ad0824
+22:42:58.929 [main] INFO  stepDefinitions.HomePageSteps - java.lang.reflect.InvocationTargetException
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b3029fa9394dc4cb76c768190d35a2f2, actions {actions=[org.openqa.selenium.interactions.Sequence@71c0b742]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\PRIYAN~1.SHA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:52244}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52244/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b3029fa9394dc4cb76c768190d35a2f2

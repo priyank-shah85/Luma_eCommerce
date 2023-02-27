@@ -71,3 +71,22 @@ Scenario: Verify the Default Billing and Shipping address when there is default 
 	Then user can see same Default Billing Address
 	And user can see same Default Shipping Address
 	
+#This use case is for integration between Minicart and Checkout page
+@regression @Minor
+Scenario: Verify that user directly lands on Checkout page on clicking Proceed to Checkout button from Minicart.
+	When user opens "Men" menu
+	And user hovers on "Tops" sub menu
+	And user clicks on "Jackets" link
+	And user can see page heading as "Jackets"
+	And user clicks on "Proteus Fitness Jackshirt" product
+	And user can see page heading as "Proteus Fitness Jackshirt"
+	And user selects "M" size
+	And user select "Orange" color
+	And user clicks on Add to Cart button
+	And user can see "You added Proteus Fitness Jackshirt to your shopping cart." message on top of the same page
+	And user can see "1" product added next to cart icon
+	And user clicks on cart icon
+	And user clicks on Proceed to Checkout button from Minicart
+	Then user can see page heading as "Checkout"
+	And user can see "Shipping Address" step
+	

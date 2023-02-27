@@ -117,6 +117,7 @@ public class TopMenuLinks extends BasePage {
 		}
 	}
 	
+	// Action methods for Level1 sub menus
 	public void mouseHoverOnSubMenu(String subMenu) {
 		switch(subMenu) {
 		
@@ -148,6 +149,23 @@ public class TopMenuLinks extends BasePage {
 		}
 	}
 	
+	public void clickOnSubMenu(String subMenu) {
+		switch(subMenu) {
+		
+		case "Tops":
+			action.moveToElement(lnkTops).click().build().perform();
+			break;
+		
+		case "Bottoms":
+			action.moveToElement(lnkBottoms).click().build().perform();
+			break;
+			
+		default:
+			break;
+		}
+	}
+	
+	// Action methods for Level2 product links
 	public void clickOnProductLink(String link) {
 		switch(link) {
 		

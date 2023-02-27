@@ -115,7 +115,7 @@ public class SignInPage extends BasePage {
 			// Storing expected RGB formatter
 			expectedColor = "rgb(224, 43, 39)";
 			
-			System.out.println("Asterisk sign: " + asteriskSign + "| Actual Color: " + actualColor + "| Expected color: " + expectedColor);
+			// System.out.println("Asterisk sign: " + asteriskSign + "| Actual Color: " + actualColor + "| Expected color: " + expectedColor);
 			
 			// Comparing CSS values with actual values
 			if(asteriskSign.contains("*") && actualColor.contentEquals(expectedColor)) {

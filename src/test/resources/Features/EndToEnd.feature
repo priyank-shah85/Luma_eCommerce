@@ -83,8 +83,6 @@ Scenario Outline: Verify that new user can register, buy Gear product and can vi
 	And user can see page heading as "<product_link>"
 	And user clicks on "<product_name>" product
 	And user can see page heading as "<product_name>"
-	And user selects "<product_size>" size
-	And user select "<product_color>" color
 	And user clicks on Add to Cart button
 	And user can see "<cart_confirmation>" message on top of the same page
 	And user can see "1" product added next to cart icon
@@ -168,7 +166,7 @@ Scenario Outline: Verify that existng user can buy Men & Women products and can 
 	|p2.s2@test.com |Test@1234 |Women			|Tops			|Bras & Tanks	|Maya Tunic						 |S						 |White					|You added Maya Tunic to your shopping cart. 						|
 	
 # This is for Gear products
-@regression @Major
+@regression @Major @temp
 Scenario Outline: Verify that existng user can buy Gear products and can view the history under My Orders after login.
 	When user clicks on Sign In link
 	And user enters email as "<email>"

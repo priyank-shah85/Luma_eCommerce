@@ -62,3 +62,10 @@ Scenario Outline: Verify the search with invalid terms.
 	|Test123456 				|
 	|$$##@@& 						|
 	|malicious input&^% |
+	
+@regression @Major
+Scenario: Verify the Video Download link.
+	And user opens "Training" menu
+	And user hovers on "Video Download" sub menu
+	And user can see page heading as "Video Download"
+	Then user can see "We can't find products matching the selection." message on page

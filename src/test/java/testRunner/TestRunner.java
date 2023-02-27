@@ -11,11 +11,13 @@ import org.junit.runner.RunWith;
 			// features = { ".//src/test/resources/Features/LandingPage.feature" },
 			// features = { ".//src/test/resources/Features/CreateAccount.feature" },
 			// features = { ".//src/test/resources/Features/SignInToAccount.feature" },
+			// features = { ".//src/test/resources/Features/Minicart.feature" },
 			// features = { ".//src/test/resources/Features/ForgotPassword.feature" },
 			// features = { ".//src/test/resources/Features/MyAccount.feature" },
 			// features = { ".//src/test/resources/Features/MyOrders.feature" },
+			 features = { ".//src/test/resources/Features/ProductList.feature" },
 			// features = { ".//src/test/resources/Features/Integration.feature" },
-			 features = { ".//src/test/resources/Features/EndToEnd.feature" },
+			// features = { ".//src/test/resources/Features/EndToEnd.feature" },
 			// features="@target/rerun.txt", // Runs only failures
 			glue = "stepDefinitions",
 			plugin = 
@@ -32,7 +34,7 @@ import org.junit.runner.RunWith;
 					
 			dryRun = false,
 			monochrome = true,
-			   tags = "@regression" // Scenarios tagged with @sanity
+			   tags = "@temp" // Scenarios tagged with @sanity
 			// tags = "@sanity and @regression" //Scenarios tagged with both @sanity and @regression
 			// tags = "@sanity or @regression" //Scenarios tagged with either @sanity or @regression
 			// tags = "@sanity and not @regression", //Scenarios tagged with @sanity but not tagged with @regression

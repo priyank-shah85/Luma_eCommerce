@@ -238,6 +238,7 @@ public class CheckoutPage extends BasePage {
 				if(cellValue.contentEquals(methodName)) {
 					results = true;
 					columns.get(j-2).click();
+					break;
 				}
 				else {
 					continue;

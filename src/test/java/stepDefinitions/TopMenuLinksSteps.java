@@ -26,6 +26,7 @@ public class TopMenuLinksSteps {
 		}
 	}
 	
+	// Steps for Level1 sub menus
 	@And("user hovers on {string} sub menu")
 	public void user_hovers_on_sub_menu(String subMenu) {
 		try {
@@ -37,6 +38,18 @@ public class TopMenuLinksSteps {
 		}
 	}
 	
+	@And("user clicks on {string} sub menu")
+	public void user_clicks_on_sub_menu(String subMenu) {
+		try {
+			tml.clickOnSubMenu(subMenu);
+		}
+		catch(Exception e) {
+			logger.info(e.getMessage());
+			Assert.fail(subMenu + "sub menu does not exists.");
+		}
+	}
+	
+	// Steps for Level2 product links
 	@And("user clicks on {string} link")
 	public void user_clicks_on_link(String productLink) {
 		try {
